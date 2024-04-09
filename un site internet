@@ -1,0 +1,78 @@
+<<<<<a suprimer>>>>ce site internet que j'ai fait creer par un ia peut introduire plusieurs site (lien) ce qui est assez pratique PS:une fois le code lancer un pop up va apparaitre pour que le site se lance cliquer sur ok <<<<<a suprimer>>>>>
+<script type="text/javascript">
+alert("bienvenue sur mon site");
+</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>bienvenue sur mon site</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="services">
+        <h2>nos services</h2>
+        <ul>
+         <!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <p>
+      <a href="https://www.example1.com">Example Link 1</a>
+    </p>
+    <p>
+      <a href="https://www.example2.com">Example Link 2</a>
+    </p>
+    <p>
+      <a href="https://www.example3.com">Example Link 3</a>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>contacter nous</h2>
+        <p>
+         pour nous contacter veuiller vous inscrire est ensuite utiliser cette email: juleshauchart@icloud.com
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2024 My Website</p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>inscription</h1>
+    <form action="register.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
